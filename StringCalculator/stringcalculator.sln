@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringcalculator", "stringcalculator\stringcalculator.csproj", "{A880230F-F9AB-4237-AB25-76112BA4764A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringcalculator.unit.test", "stringcalculator.unit.test\stringcalculator.unit.test.csproj", "{D7902E4E-75C7-4028-842A-C6500B352F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A880230F-F9AB-4237-AB25-76112BA4764A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A880230F-F9AB-4237-AB25-76112BA4764A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A880230F-F9AB-4237-AB25-76112BA4764A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A880230F-F9AB-4237-AB25-76112BA4764A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7902E4E-75C7-4028-842A-C6500B352F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7902E4E-75C7-4028-842A-C6500B352F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7902E4E-75C7-4028-842A-C6500B352F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7902E4E-75C7-4028-842A-C6500B352F04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
