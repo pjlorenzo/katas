@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringCalculator", "StringC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringcalculator", "StringCalculator\stringcalculator\stringcalculator.csproj", "{35649F9F-CD10-451D-9647-1D0ED65696D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stringcalculator.unit.test", "StringCalculator\stringcalculator.unit.test\stringcalculator.unit.test.csproj", "{8E6E0370-6351-414D-B841-E534EBF53DD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{35649F9F-CD10-451D-9647-1D0ED65696D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35649F9F-CD10-451D-9647-1D0ED65696D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35649F9F-CD10-451D-9647-1D0ED65696D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6E0370-6351-414D-B841-E534EBF53DD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6E0370-6351-414D-B841-E534EBF53DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6E0370-6351-414D-B841-E534EBF53DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6E0370-6351-414D-B841-E534EBF53DD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{35649F9F-CD10-451D-9647-1D0ED65696D7} = {97A40A06-DDD3-4BA3-994B-1E36C466D956}
+		{8E6E0370-6351-414D-B841-E534EBF53DD0} = {97A40A06-DDD3-4BA3-994B-1E36C466D956}
 	EndGlobalSection
 EndGlobal
