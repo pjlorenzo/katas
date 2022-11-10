@@ -8,21 +8,6 @@ public class StringCalculator
             return 0;
         }
 
-        // var findDelimiters = numbersToAdd.Split('\n');
-        // char[] delimeters;
-        // string toProcess ="";
-        // if (findDelimiters.Count()>1 && findDelimiters[0].Contains("//"))
-        // {
-        //   var test = findDelimiters[0].Substring(2,1);
-        //   delimeters = new char[] {test[0]};
-        //   toProcess = findDelimiters[1]; 
-        // }
-        // else
-        // {
-        //   delimeters = new char[] {',','\n'};
-        //   toProcess = numbersToAdd;
-        // }
-
         var delimeters = FindDelimeters(numbersToAdd);
 
         var numbers = numbersToAdd.Split(delimeters);
@@ -43,17 +28,14 @@ public class StringCalculator
     {
         var findDelimiters = numbersToAdd.Split('\n');
         char[] delimeters;
-        //string toProcess ="";
         if (findDelimiters.Count() > 1 && findDelimiters[0].Contains("//"))
         {
             var test = findDelimiters[0].Substring(2, 1);
             delimeters = new char[] { test[0], '\n' };
-            //toProcess = findDelimiters[1]; 
         }
         else
         {
             delimeters = new char[] { ',', '\n' };
-            //toProcess = numbersToAdd;
         }
         return delimeters;
     }
